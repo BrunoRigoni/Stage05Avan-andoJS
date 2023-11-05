@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background: linear-gradient(108deg, #C2E9FB 0%, #A1C4FD 100%);
+font-family: 'DM Sans', sans-serif;
+font-family: 'DM Sans', sans-serif;
+
+display: grid;
+place-items: center;
+
+width: 100vw;
+height: 100vh;
+
+}
+.hide {
+  display: none;
+}
+
+:root {
+  --title-color: #34355B;
+  --text-color: rgba(52, 53, 91, 0.80);
+
+  --inputbox: #DCE2E9;
+  --button: #7879F1;
+
+  --button-text: #fff;
+  --button-hover: #4343ff; 
+
+  font-size: 62.5%;
+}
+
+main {
+  width: min(42.8rem, 90%);
+  padding: 4.8rem 6.4rem;
+  
+  background: white;
+  box-sizing: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  gap: 4.8rem;
+
+}
+
+
+/* screen1 */
+button {
+  width: 8.2rem;
+  height: 5.3rem;
+  padding: 1.6rem;
+  
+  border: none;
+  border-radius: 0 4px 4px 0;
+  
+  background: var(--button);
+  color: var(--button-text);
+  font-size: 1.6rem;
+  cursor: pointer;
+
+  transition: background .3s ;
+}
+button:hover {
+  background: var(--button-hover) ;
+}
+
+h1 {
+  font-family: 'Montserrat';
+
+  font-size: 2.4rem;
+
+  font-weight: 600;
+  line-height: normal;
+  color: var(--title-color);
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+
+  font-weight: 400;
+  line-height: 150%;
+
+  color: var(--text-color);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 4.8rem;
+}
+
+input{
+width: 4.3rem;
+height: 5.3rem;
+padding: 0 1.6rem ;
+
+border-radius: 4px 0 0 4px;
+border: none;
+
+background: var(--inputbox);
+color: var(--title-color);
+font-size: 1.6rem;
+display: flex;
+justify-content: center;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: .4rem;
+  gap: 1.6rem;
+  width: 16.6rem;
+}
